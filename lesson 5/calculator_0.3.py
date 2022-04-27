@@ -25,3 +25,6 @@ if sym == '+++':
         for number in range(len(numbers[:-1])):
             numbers[number] = int(numbers[number])
     print(sum(numbers[:-1]))
+else:
+    print('Помилка!')
+    
