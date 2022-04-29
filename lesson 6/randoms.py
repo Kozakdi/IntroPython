@@ -26,3 +26,12 @@ random.shuffle(fruits)
 print(fruits)
 
 
+random.seed(123)
+print([random.randint(0, 10) for _ in range(10)])
+
+random.seed(123)
+print([random.randint(0, 10) for _ in range(10)])
+
+random.seed(123)
+print([random.randint(0, 10) for _ in range(100)])
+
