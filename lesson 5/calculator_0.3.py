@@ -27,4 +27,6 @@ elif sym == '+++':
     print(sum(numbers[:-1]))
 else:
     print('Помилка!')
+
+
     
